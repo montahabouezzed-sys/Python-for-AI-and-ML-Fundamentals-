@@ -110,12 +110,12 @@ git clone [https://github.com/montahabouezzed-sys/python-ai-ml.git](https://gith
 cd python-ai-ml
 ```
 
-2. Install dependencies
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Open the notebooks
+### 3. Open the notebooks
 ```bash
 jupyter notebook
 ```
