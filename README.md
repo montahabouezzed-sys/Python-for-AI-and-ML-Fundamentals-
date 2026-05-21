@@ -125,3 +125,8 @@ jupyter notebook
 📊 Example Outputs
 Visual examples (plots, decision boundaries, metrics tables) are stored in the assets/ folder and referenced inside the notebooks.
 
+📄 License
+This project is released under the MIT License.
+
+🤝 Contributions
+This repository is primarily a personal learning space, but suggestions and improvements are welcome.
