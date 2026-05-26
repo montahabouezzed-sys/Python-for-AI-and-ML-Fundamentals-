@@ -10,7 +10,7 @@ standard linear baselines on the historic Boston housing area framework typicall
 The minimal generalization gap ($\Delta R^2 = 0.034$) indicates a highly stable, non-overfitting model. This report outlines the mathematical and structural reasons 
 behind these elevated metrics, cross-referencing the underlying feature distributions.
 
-![Residuals Plot](./plots/residual_plot.png)
+![Residuals Plot](./residual_plot.png)
 
 ---
 
@@ -23,6 +23,8 @@ The residual analysis yields crucial insights into the model's structural validi
    vast majority of target price fluctuations within this sample boundary.
 * **Generalization Stability:** The test performance ($0.858$) confirms that the learned hyperplane generalizes seamlessly to unseen data drawn from the same distribution,
    free from high-variance overfitting.
+
+![distribution of housing Plot](./distribution_housing.png)
 
 ---
 
