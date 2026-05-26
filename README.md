@@ -32,7 +32,7 @@ python-ai-ml/
 │
 ├── notebooks/
 │   ├── 01_linear_regression.ipynb
-│   ├── 02_logistic_regression.ipynb
+│   ├── 02_logarithmic_regression.ipynb
 │   ├── 03_svm.ipynb
 │   ├── 04_decision_tree.ipynb
 │   ├── 05_random_forest.ipynb
