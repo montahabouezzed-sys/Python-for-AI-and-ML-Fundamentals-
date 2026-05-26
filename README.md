@@ -45,12 +45,17 @@ python-ai-ml/
 │   ├── evaluate.py
 │   └── utils.py
 │
-├── assets/
+├── assets/                   # Non-code resources
+│   ├── architecture_diag.png 
 │   ├── regression_plot.png
 │   ├── svm_boundary.png
 │   ├── tree_visualization.png
 │   └── metrics_table.png
 │
+├── results/                 # Generated artifacts from notebooks/scripts
+│  └── plots/                # Saved charts/visualizations
+│       └── true_vs_predict_plot.png
+|
 ├── README.md
 └── requirements.txt
 ```
