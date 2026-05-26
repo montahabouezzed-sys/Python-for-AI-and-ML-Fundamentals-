@@ -10,6 +10,8 @@ standard linear baselines on the historic Boston housing area framework typicall
 The minimal generalization gap ($\Delta R^2 = 0.034$) indicates a highly stable, non-overfitting model. This report outlines the mathematical and structural reasons 
 behind these elevated metrics, cross-referencing the underlying feature distributions.
 
+![Residuals Plot](./plots/residual_plot.png)
+
 ---
 
 ## 2. Performance Analysis & Visual Diagnostics
