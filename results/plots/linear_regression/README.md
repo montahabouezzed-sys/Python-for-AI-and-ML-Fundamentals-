@@ -24,13 +24,13 @@ The residual analysis yields crucial insights into the model's structural validi
 * **Generalization Stability:** The test performance ($0.858$) confirms that the learned hyperplane generalizes seamlessly to unseen data drawn from the same distribution,
    free from high-variance overfitting.
 
-![distribution of housing Plot](./distribution_housing.png)
-
 ---
 
 ## 3. Distributional Divergence from the Historic Dataset
 The exceptionally high performance is explained by analyzing the feature distributions. The 400-row subset acts as a sanitized, well-behaved partition of the original 
 historical landscape, omitting several non-linear mathematical anomalies:
+
+![distribution of housing Plot](./distribution_housing.png)
 
 ### A. Truncation of Heavy-Tailed Crime Dynamics (`CRIM`)
 In the original 506-row dataset, the per-capita crime rate (`CRIM`) possesses a severe right-skew, with an extreme tail extending up to **89%**. 
