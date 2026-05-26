@@ -26,7 +26,7 @@ This repository aims to:
 python-ai-ml/
 │
 ├── data/
-│   ├── dataset1.csv
+│   ├──boston_housing.csv
 │   ├── dataset2.csv
 │   └── ...
 │
@@ -40,9 +40,7 @@ python-ai-ml/
 │   └── 07_model_comparison.ipynb
 │
 ├── src/
-│   ├── preprocess.py
 │   ├── train_model.py
-│   ├── evaluate.py
 │   └── utils.py
 │
 ├── assets/                   # Non-code resources
@@ -53,8 +51,12 @@ python-ai-ml/
 │   └── metrics_table.png
 │
 ├── results/                 # Generated artifacts from notebooks/scripts
-│  └── plots/                # Saved charts/visualizations
-│       └── true_vs_predict_plot.png
+│   └── plots/                # Saved charts/visualizations
+│       └── linear_regression
+|           |──  README.md
+|           ├── residual_plot.png
+|           ├── comparison_pred_vs_true.png
+│           └── distribution_housing.png
 |
 ├── README.md
 └── requirements.txt
